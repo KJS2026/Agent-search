@@ -16,7 +16,9 @@
 
 ## 🚀 Live Demo
 
-**Coming soon** — Deploy in progress
+🌐 **[agent-search-lake.vercel.app](https://agent-search-lake.vercel.app/)**
+
+Try it now — no signup required!
 
 ## 📦 Data Sources
 
