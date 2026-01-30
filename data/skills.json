@@ -1,0 +1,907 @@
+[
+  {
+    "id": "byterover",
+    "type": "skill",
+    "name": "ByteRover",
+    "slug": "byterover",
+    "description": "Manages project knowledge using ByteRover context tree. Provides two operations: query (retrieve knowledge) and curate (store knowledge). Invoke when user requests information lookup, pattern discovery, or knowledge persistence. Developed by ByteRover Inc. (https://byterover.dev/)",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 13978,
+      "installs": 4,
+      "stars": 16,
+      "versions": 2
+    },
+    "createdAt": 1769508805216,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.2.2"
+  },
+  {
+    "id": "wacli",
+    "type": "skill",
+    "name": "Wacli",
+    "slug": "wacli",
+    "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 8788,
+      "installs": 60,
+      "stars": 26,
+      "versions": 1
+    },
+    "createdAt": 1767545393053,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "self-improving-agent",
+    "type": "skill",
+    "name": "self-improving-agent",
+    "slug": "self-improving-agent",
+    "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 8199,
+      "installs": 41,
+      "stars": 100,
+      "versions": 3
+    },
+    "createdAt": 1767632598365,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.2"
+  },
+  {
+    "id": "gog",
+    "type": "skill",
+    "name": "Gog",
+    "slug": "gog",
+    "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 4888,
+      "installs": 89,
+      "stars": 26,
+      "versions": 1
+    },
+    "createdAt": 1767545346060,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "atxp",
+    "type": "skill",
+    "name": "ATXP",
+    "slug": "atxp",
+    "description": "Access ATXP paid API tools for web search, AI image generation, music creation, video generation, and X/Twitter search. Use when users need real-time web search, AI-generated media (images, music, video), or X/Twitter search. Requires authentication via `npx atxp login`.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 4545,
+      "installs": 1,
+      "stars": 3,
+      "versions": 1
+    },
+    "createdAt": 1769456157744,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "agent-browser",
+    "type": "skill",
+    "name": "Agent Browser",
+    "slug": "agent-browser",
+    "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.",
+    "author": "unknown",
+    "tags": [
+      "automation",
+      "browser",
+      "headless",
+      "web"
+    ],
+    "stats": {
+      "downloads": 4277,
+      "installs": 32,
+      "stars": 19,
+      "versions": 2
+    },
+    "createdAt": 1768170466579,
+    "updatedAt": 1769794245827,
+    "latestVersion": "0.2.0"
+  },
+  {
+    "id": "wed",
+    "type": "skill",
+    "name": "What would Elon do",
+    "slug": "wed",
+    "description": "Security awareness demo - demonstrates supply chain risks in AI coding assistants. See the full research: https://x.com/theonejvo/status/2015892980851474595",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 4017,
+      "installs": 4,
+      "stars": 11,
+      "versions": 4
+    },
+    "createdAt": 1769414198632,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.3"
+  },
+  {
+    "id": "bird-dm",
+    "type": "skill",
+    "name": "Bird DM",
+    "slug": "bird-dm",
+    "description": "An add-on to the Bird skill that lets your agent check its X/Twitter DM inbox. Use when the user asks to check DMs, read Twitter direct messages, list DM conversations, or monitor their X inbox.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 4006,
+      "installs": 0,
+      "stars": 2,
+      "versions": 2
+    },
+    "createdAt": 1769791083615,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "auto-updater",
+    "type": "skill",
+    "name": "Auto-Updater Skill",
+    "slug": "auto-updater",
+    "description": "Automatically update Clawdbot and all installed skills once daily. Runs via cron, checks for updates, applies them, and messages the user with a summary of what changed.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 3655,
+      "installs": 28,
+      "stars": 24,
+      "versions": 1
+    },
+    "createdAt": 1768323539453,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "summarize",
+    "type": "skill",
+    "name": "Summarize",
+    "slug": "summarize",
+    "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 3547,
+      "installs": 91,
+      "stars": 19,
+      "versions": 1
+    },
+    "createdAt": 1767545383635,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "humanizer",
+    "type": "skill",
+    "name": "Humanizer",
+    "slug": "humanizer",
+    "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, negative\nparallelisms, and excessive conjunctive phrases.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 3452,
+      "installs": 22,
+      "stars": 20,
+      "versions": 1
+    },
+    "createdAt": 1769231736865,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "coding-agent",
+    "type": "skill",
+    "name": "Coding Agent",
+    "slug": "coding-agent",
+    "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 3179,
+      "installs": 75,
+      "stars": 34,
+      "versions": 2
+    },
+    "createdAt": 1767545309681,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "remind-me",
+    "type": "skill",
+    "name": "Remind Me",
+    "slug": "remind-me",
+    "description": "Set reminders using natural language. Automatically creates one-time cron jobs and logs to markdown.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 3164,
+      "installs": 23,
+      "stars": 11,
+      "versions": 3
+    },
+    "createdAt": 1767691675889,
+    "updatedAt": 1769794245827,
+    "latestVersion": "2.1.0"
+  },
+  {
+    "id": "clawddocs",
+    "type": "skill",
+    "name": "Clawdbot Documentation Expert",
+    "slug": "clawddocs",
+    "description": "Clawdbot documentation expert with decision tree navigation, search scripts, doc fetching, version tracking, and config snippets for all Clawdbot features",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 3119,
+      "installs": 24,
+      "stars": 34,
+      "versions": 5
+    },
+    "createdAt": 1768099309187,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.2.2"
+  },
+  {
+    "id": "bird",
+    "type": "skill",
+    "name": "Bird",
+    "slug": "bird",
+    "description": "X/Twitter CLI for reading, searching, and posting via cookies or Sweetistics.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2850,
+      "installs": 63,
+      "stars": 18,
+      "versions": 1
+    },
+    "createdAt": 1767542738213,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "sonoscli",
+    "type": "skill",
+    "name": "Sonoscli",
+    "slug": "sonoscli",
+    "description": "Control Sonos speakers (discover/status/play/volume/group).",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2816,
+      "installs": 92,
+      "stars": 3,
+      "versions": 1
+    },
+    "createdAt": 1767545381030,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "homeassistant",
+    "type": "skill",
+    "name": "Home Assistant",
+    "slug": "homeassistant",
+    "description": "Control Home Assistant - smart plugs, lights, scenes, automations.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2733,
+      "installs": 23,
+      "stars": 21,
+      "versions": 1
+    },
+    "createdAt": 1767649517907,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "weather",
+    "type": "skill",
+    "name": "Weather",
+    "slug": "weather",
+    "description": "Get current weather and forecasts (no API key required).",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2717,
+      "installs": 74,
+      "stars": 9,
+      "versions": 1
+    },
+    "createdAt": 1767545394459,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "app-store-changelog",
+    "type": "skill",
+    "name": "App Store Changelog",
+    "slug": "app-store-changelog",
+    "description": "Create user-facing App Store release notes by collecting and summarizing all user-impacting changes since the last git tag (or a specified ref). Use when asked to generate a comprehensive release changelog, App Store \"What's New\" text, or release notes based on git history or tags.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2553,
+      "installs": 1,
+      "stars": 2,
+      "versions": 2
+    },
+    "createdAt": 1767861991261,
+    "updatedAt": 1769785235995,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "github",
+    "type": "skill",
+    "name": "Github",
+    "slug": "github",
+    "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2427,
+      "installs": 58,
+      "stars": 8,
+      "versions": 1
+    },
+    "createdAt": 1767545344344,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "clawdhub",
+    "type": "skill",
+    "name": "Clawdhub",
+    "slug": "clawdhub",
+    "description": "Use the ClawdHub CLI to search, install, update, and publish agent skills from clawdhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawdhub CLI.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2417,
+      "installs": 65,
+      "stars": 16,
+      "versions": 1
+    },
+    "createdAt": 1767545308330,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "caldav-calendar",
+    "type": "skill",
+    "name": "Caldav Calendar",
+    "slug": "caldav-calendar",
+    "description": "Sync and query CalDAV calendars (iCloud, Google, Fastmail, Nextcloud, etc.) using vdirsyncer + khal. Works on Linux.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 2062,
+      "installs": 13,
+      "stars": 29,
+      "versions": 2
+    },
+    "createdAt": 1767580455544,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "youtube-watcher",
+    "type": "skill",
+    "name": "YouTube Watcher",
+    "slug": "youtube-watcher",
+    "description": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1991,
+      "installs": 7,
+      "stars": 20,
+      "versions": 1
+    },
+    "createdAt": 1769327779866,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "nano-banana-pro",
+    "type": "skill",
+    "name": "Nano Banana Pro",
+    "slug": "nano-banana-pro",
+    "description": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1923,
+      "installs": 59,
+      "stars": 13,
+      "versions": 2
+    },
+    "createdAt": 1767545358090,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "obsidian",
+    "type": "skill",
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1915,
+      "installs": 57,
+      "stars": 8,
+      "versions": 1
+    },
+    "createdAt": 1767545362143,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "proactive-agent",
+    "type": "skill",
+    "name": "Proactive Agent",
+    "slug": "proactive-agent",
+    "description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Includes reverse prompting, security hardening, self-healing patterns, and alignment systems. Part of the Hal Stack 🦞",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1802,
+      "installs": 6,
+      "stars": 19,
+      "versions": 10
+    },
+    "createdAt": 1769629545209,
+    "updatedAt": 1769794245827,
+    "latestVersion": "2.0.0"
+  },
+  {
+    "id": "verify-on-browser",
+    "type": "skill",
+    "name": "Browser CDP MCP",
+    "slug": "verify-on-browser",
+    "description": "Control browser via Chrome DevTools Protocol - full CDP access",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1656,
+      "installs": 10,
+      "stars": 10,
+      "versions": 1
+    },
+    "createdAt": 1767763888738,
+    "updatedAt": 1769792436463,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "brave-search",
+    "type": "skill",
+    "name": "Brave Search",
+    "slug": "brave-search",
+    "description": "Web search and content extraction via Brave Search API. Use for searching documentation, facts, or any web content. Lightweight, no browser required.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1651,
+      "installs": 24,
+      "stars": 6,
+      "versions": 2
+    },
+    "createdAt": 1767545304976,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "marketing-mode",
+    "type": "skill",
+    "name": "Marketing Mode",
+    "slug": "marketing-mode",
+    "description": "Marketing Mode combines 23 comprehensive marketing skills covering strategy, psychology, content, SEO, conversion optimization, and paid growth. Use when users need marketing strategy, copywriting, SEO help, conversion optimization, paid advertising, or any marketing tactic.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1625,
+      "installs": 4,
+      "stars": 13,
+      "versions": 1
+    },
+    "createdAt": 1769016558544,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "research",
+    "type": "skill",
+    "name": "Research",
+    "slug": "research",
+    "description": "Deep research via Gemini CLI — runs in background sub-agent so you don't burn your Claude tokens.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1558,
+      "installs": 7,
+      "stars": 10,
+      "versions": 2
+    },
+    "createdAt": 1768053419368,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "frontend-design",
+    "type": "skill",
+    "name": "Frontend Design",
+    "slug": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1460,
+      "installs": 11,
+      "stars": 6,
+      "versions": 1
+    },
+    "createdAt": 1767651960903,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "superdesign",
+    "type": "skill",
+    "name": "SuperDesign",
+    "slug": "superdesign",
+    "description": "Expert frontend design guidelines for creating beautiful, modern UIs. Use when building landing pages, dashboards, or any user interface.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1423,
+      "installs": 6,
+      "stars": 3,
+      "versions": 1
+    },
+    "createdAt": 1767719074735,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "deep-research",
+    "type": "skill",
+    "name": "Deep Research Agent",
+    "slug": "deep-research",
+    "description": "Deep Research Agent specializes in complex, multi-step research tasks that require planning, decomposition, and long-context reasoning across tools and files by we-crafted.com/agents/deep-research",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1414,
+      "installs": 5,
+      "stars": 9,
+      "versions": 2
+    },
+    "createdAt": 1769540388277,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "plan2meal",
+    "type": "skill",
+    "name": "Plan2Meal",
+    "slug": "plan2meal",
+    "description": null,
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1409,
+      "installs": 0,
+      "stars": 3,
+      "versions": 3
+    },
+    "createdAt": 1768325032489,
+    "updatedAt": 1769788835980,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "browser-use",
+    "type": "skill",
+    "name": "Browser Use",
+    "slug": "browser-use",
+    "description": "Use Browser Use cloud API to spin up cloud browsers for Clawdbot and run autonomous browser tasks. Primary use is creating browser sessions with profiles (persisted logins/cookies) that Clawdbot can control. Secondary use is running task subagents for fast autonomous browser automation. Also supports executing pre-built Skills from the marketplace. Docs at docs.browser-use.com and docs.cloud.browser-use.com.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1338,
+      "installs": 4,
+      "stars": 5,
+      "versions": 2
+    },
+    "createdAt": 1769388231012,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "hn",
+    "type": "skill",
+    "name": "Hacker News",
+    "slug": "hn",
+    "description": "Browse Hacker News - top stories, new, best, ask, show, jobs, and story details with comments.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1330,
+      "installs": 3,
+      "stars": 5,
+      "versions": 1
+    },
+    "createdAt": 1767809297821,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "tavily-search",
+    "type": "skill",
+    "name": "Tavily Web Search",
+    "slug": "tavily-search",
+    "description": "AI-optimized web search via Tavily API. Returns concise, relevant results for AI agents.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1233,
+      "installs": 2,
+      "stars": 2,
+      "versions": 1
+    },
+    "createdAt": 1768114920544,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "slack",
+    "type": "skill",
+    "name": "Slack",
+    "slug": "slack",
+    "description": "Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1216,
+      "installs": 46,
+      "stars": 6,
+      "versions": 1
+    },
+    "createdAt": 1767545378002,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "yahoo-finance",
+    "type": "skill",
+    "name": "Yahoo Finance",
+    "slug": "yahoo-finance",
+    "description": "Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Yahoo Finance. Uses yfinance library - no API key required.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1209,
+      "installs": 7,
+      "stars": 8,
+      "versions": 1
+    },
+    "createdAt": 1767817868261,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "nano-pdf",
+    "type": "skill",
+    "name": "Nano Pdf",
+    "slug": "nano-pdf",
+    "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1203,
+      "installs": 61,
+      "stars": 3,
+      "versions": 1
+    },
+    "createdAt": 1767545359433,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "gemini",
+    "type": "skill",
+    "name": "Gemini",
+    "slug": "gemini",
+    "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1179,
+      "installs": 55,
+      "stars": 8,
+      "versions": 1
+    },
+    "createdAt": 1767545316392,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "stock-analysis",
+    "type": "skill",
+    "name": "Stock Analysis",
+    "slug": "stock-analysis",
+    "description": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management (create, add, remove assets), crypto analysis (Top 20 by market cap), and periodic performance reports (daily/weekly/monthly/quarterly/yearly). 8 analysis dimensions for stocks, 3 for crypto. Use for stock analysis, portfolio tracking, earnings reactions, or crypto monitoring.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1135,
+      "installs": 2,
+      "stars": 6,
+      "versions": 7
+    },
+    "createdAt": 1768383975214,
+    "updatedAt": 1769794245827,
+    "latestVersion": "5.0.0"
+  },
+  {
+    "id": "tessie",
+    "type": "skill",
+    "name": "Tessie Tesla Control",
+    "slug": "tessie",
+    "description": null,
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1099,
+      "installs": 0,
+      "stars": 2,
+      "versions": 2
+    },
+    "createdAt": 1768420698370,
+    "updatedAt": 1769786136006,
+    "latestVersion": "2.0.3"
+  },
+  {
+    "id": "openai-whisper",
+    "type": "skill",
+    "name": "Openai Whisper",
+    "slug": "openai-whisper",
+    "description": "Local speech-to-text with the Whisper CLI (no API key).",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1096,
+      "installs": 54,
+      "stars": 2,
+      "versions": 1
+    },
+    "createdAt": 1767545365755,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "discord",
+    "type": "skill",
+    "name": "Discord",
+    "slug": "discord",
+    "description": "Use when you need to control Discord from Clawdbot via the discord tool: send messages, react, post or upload stickers, upload emojis, run polls, manage threads/pins/search, fetch permissions or member/role/channel info, or handle moderation actions in Discord DMs or channels.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1091,
+      "installs": 43,
+      "stars": 4,
+      "versions": 2
+    },
+    "createdAt": 1767545311074,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.1"
+  },
+  {
+    "id": "memory-setup",
+    "type": "skill",
+    "name": "Memory Setup",
+    "slug": "memory-setup",
+    "description": "Enable and configure Moltbot/Clawdbot memory search for persistent context. Use when setting up memory, fixing \"goldfish brain,\" or helping users configure memorySearch in their config. Covers MEMORY.md, daily logs, and vector search setup.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1091,
+      "installs": 4,
+      "stars": 8,
+      "versions": 1
+    },
+    "createdAt": 1769568045678,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "notion",
+    "type": "skill",
+    "name": "Notion",
+    "slug": "notion",
+    "description": "Notion API for creating and managing pages, databases, and blocks.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1073,
+      "installs": 50,
+      "stars": 8,
+      "versions": 1
+    },
+    "createdAt": 1767545360889,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "mcporter",
+    "type": "skill",
+    "name": "Mcporter",
+    "slug": "mcporter",
+    "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1054,
+      "installs": 56,
+      "stars": 4,
+      "versions": 1
+    },
+    "createdAt": 1767545355897,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "spotify-player",
+    "type": "skill",
+    "name": "Spotify Player",
+    "slug": "spotify-player",
+    "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1053,
+      "installs": 50,
+      "stars": 2,
+      "versions": 1
+    },
+    "createdAt": 1767545382402,
+    "updatedAt": 1769794245827,
+    "latestVersion": "1.0.0"
+  },
+  {
+    "id": "google-workspace-mcp",
+    "type": "skill",
+    "name": "Google Workspace (No Cloud Console)",
+    "slug": "google-workspace-mcp",
+    "description": "Gmail, Calendar, Drive, Docs, Sheets — NO Google Cloud Console required. Just OAuth sign-in. Zero setup complexity vs traditional Google API integrations.",
+    "author": "unknown",
+    "tags": [],
+    "stats": {
+      "downloads": 1052,
+      "installs": 8,
+      "stars": 13,
+      "versions": 1
+    },
+    "createdAt": 1769458839920,
+    "updatedAt": 1769793335948,
+    "latestVersion": "1.0.0"
+  }
+]
